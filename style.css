@@ -1,3 +1,8 @@
+*{
+    /* border: 1px solid red; */
+    /* margin: 0; */
+}
+
 body{
     background-image: url(./images/banner-bg.png);
 }
@@ -8,12 +13,79 @@ body{
     margin-top: 15px;
     font-size: 18px;
     cursor: pointer;
+}
 
+.nav-home{
+    transition: ease-in all 0.3s;
+
+}
+
+.nav-home:hover{
+    color: #FEB607;
+
+}
+
+.nav-service{
+    /* display: flex; */
+    /* gap: 30px; */
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: ease-in all 0.3s;
+
+}
+
+.nav-service:hover{
+    color: #FEB607;
+}
+
+.nav-about{
+    /* display: flex; */
+    /* gap: 30px; */
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: ease-in all 0.3s;
+}
+
+.nav-about:hover{
+    color: #FEB607;
+}
+
+.nav-shop{
+    /* display: flex; */
+    /* gap: 30px; */
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: ease-in all 0.3s;
+}
+
+.nav-shop:hover{
+    color: #FEB607;
+}
+
+.nav-contat{
+    /* display: flex; */
+    /* gap: 30px; */
+    margin-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition:  0.3s;
+}
+
+.nav-contat:hover{
+    color: #FEB607;
 }
 
 .nav-bar{
     display: flex;
-    gap: 50px;
+    gap: 30px;
+}
+
+.nav{
+    display: flex;
+    /* gap: 50px; */
     margin-left: 30px;
 }
 
@@ -26,8 +98,12 @@ body{
     margin-top: 15px;
     font-size: 18px;
     cursor: pointer;
-    
+    margin-left: 40px;
+    transition: ease-in 0.3s;
+}
 
+.nav-login:hover{
+    color: #FEB607;
 
 }
 
