@@ -3,7 +3,14 @@
     /* margin: 0; */
 }
 
-body{
+
+@font-face{
+    font-family:'New';
+    src: url(./fonts/poppins.ttf);
+}
+
+
+header{
     background-image: url(./images/banner-bg.png);
 }
 
@@ -110,4 +117,43 @@ body{
     margin-top: 15px;
     font-size: 18px;
     color: #FEB607;
+}
+
+.intro h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    /* font-family: New; */
+    font-weight: 300;
+    padding-top: 130px;
+    width: 100%;
+    color: #090808;
+    text-align: center;
+    margin: auto;
+}
+
+.p1{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    line-height: 1.4em;
+    margin-top: 17px;
+}
+
+.intro button{
+    font-size: 18px;
+    color: white;
+    background-color: #FFB607;
+    padding: 17px 39px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 300px;
+    border-style: none;
+    margin-left: 580px;
+    margin-bottom: 80px;
+    transition:  0.5s;
+    cursor: pointer;
+}
+
+.intro button :hover{
+    background-color: black;
 }
