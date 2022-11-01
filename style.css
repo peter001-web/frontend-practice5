@@ -164,7 +164,7 @@ header{
 
 .first-section{
     margin-top: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .first-section h2{
@@ -255,8 +255,9 @@ header{
 .second-section{
     display: flex;
     background-color: #FEB607;
-    margin-bottom: 200px;
-    padding: 80px;
+    margin-bottom: 100px;
+    padding: 100px;
+    gap: 40px;
 }
 
 .second-section h2{
@@ -268,6 +269,7 @@ header{
     /* width: 100%; */
     color: white;
     /* margin-top: 100px; */
+    padding-left: 30px;
 }
 
 .second-section p{
@@ -275,6 +277,8 @@ header{
     line-height: 1.4em;
     padding-top: 80px;
     color: white;
+    padding-left: 30px;
+
 }
 
 .second-section button{
@@ -291,4 +295,52 @@ header{
     /* float: left; */
     font-size: 18px;
     text-align: center;
+    margin-left: 30px;
+}
+
+.second-section button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.third-section{
+    margin-bottom: 200px;
+}
+
+.about-furnitures h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-transform: uppercase;
+    /* font-family: New; */
+    font-weight: 300;
+    width: 100%;
+    color: #090808;
+    text-align: center;
+    margin: auto;
+}
+
+.about-furnitures p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.inside-furnitures{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.inside-furnitures h3{
+    color: #FEB607;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px
+}
+
+.inside-furnitures p{
+    font-size: 18px;
+    line-height: 1.4em;
+    width: 90%;
 }
