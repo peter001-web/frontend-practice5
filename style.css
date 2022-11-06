@@ -639,3 +639,14 @@ background-color:#FEBD21;
 .contact-us button:hover{
 background-color: white;
 }
+
+
+.foot-info{
+    background-color: #313131;
+    color: white;
+    display: flex;
+}
+
+.foot-info p{
+    width: 50%;
+}
