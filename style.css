@@ -432,7 +432,7 @@ header{
 
 
 .sixth-section{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .clients-text h2{
@@ -519,7 +519,7 @@ header{
 }
 
 footer{
-    margin-bottom: 200px;
+    margin-bottom: 20px;
 }
 
 .contact-us{
@@ -645,8 +645,89 @@ background-color: white;
     background-color: #313131;
     color: white;
     display: flex;
+    padding: 100px;
+    gap: 100px;
 }
 
 .foot-info p{
     width: 50%;
+}
+
+/* .foot-info h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+} */
+
+.lets-design h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+    /* font-family: New; */
+    /* font-weight: 800; */
+    color: white;
+}
+
+.lets-design p{
+    line-height: 1.4em;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.lets-help h2{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 300;
+    color: white;
+}
+
+
+.lets-help p{
+    line-height: 1.4em;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.get-info h2{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 300;
+    color: white;
+}
+
+.get-info dt{
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.get-info dd{
+    margin-top: 5px;
+}
+
+.our-design h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+    /* font-family: New; */
+    /* font-weight: 800; */
+    color: white;
+}
+
+.our-design p{
+    line-height: 1.4em;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.foot-icon{
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
 }
