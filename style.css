@@ -957,7 +957,7 @@ background-color: white;
 
     .first-section{
         margin-top: 50px;
-        margin-bottom: 200px;
+        margin-bottom: 70px;
         width: 90%;
     }
     
@@ -1048,7 +1048,122 @@ background-color: white;
     
     .office-info h3 {
         margin-left: 90px;
+        width: 50%;
     }
+
+    .second-section{
+        display: flex;
+        flex-direction: column;
+        background-color: #FEB607;
+        margin-bottom: 100px;
+        height: 350px;
+        padding: 40px;
+        gap: 0px;
+    }
+    
+    .second-section h2{
+        text-transform: uppercase;
+        font-size: 20px;
+        text-transform: uppercase;
+        /* font-family: New; */
+        font-weight: 300;
+        /* width: 100%; */
+        color: white;
+        /* margin-top: 100px; */
+        padding-left: 0px;
+    }
+    
+    .second-section p{
+        width: 100%;
+        line-height: 1.4em;
+        padding-top: 30px;
+        color: white;
+        padding-left: 0px;
+        font-size: 11px;
+    
+    }
+    
+    .second-section button{
+        margin-top: 20px;
+        color: white;
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border-style: none;
+        transition:  0.5s;
+        cursor: pointer;
+        text-transform: uppercase;
+        /* width: 100%; */
+        /* float: left; */
+        font-size: 10px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .second-section button:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .second-section img{ 
+        width: 70%;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+
+
+    .third-section{
+        margin-bottom: 150px;
+
+    }
+    
+    .about-furnitures h2{
+        text-transform: uppercase;
+        font-size: 20px;
+        text-transform: uppercase;
+        /* font-family: New; */
+        font-weight: 300;
+        width: 100%;
+        color: #090808;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .about-furnitures p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    
+    .inside-furnitures{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 1px;
+        gap: 40px;
+    }
+    
+    .inside-furnitures h3{
+        color: #FEB607;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+    .inside-furnitures img{
+        width: 100%;
+    }
+    
+    .inside-furnitures p{
+        font-size: 18px;
+        line-height: 1.4em;
+        width: 95%;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    
     
   
 }
